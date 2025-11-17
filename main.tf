@@ -45,7 +45,7 @@ resource "aws_instance" "server" {
   vpc_security_group_ids      = [aws_security_group.allow_ssh.id]
 
   tags = {
-    Name = "omar-ec22"
+    Name = "omar-ec2"
   }
 }
 
